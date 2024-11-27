@@ -47,3 +47,6 @@ fn main() -> Result<(), Box<dyn Error>> {
     render_articles(&articles);
     Ok(())
 }
+
+// App already built > find a way for distribution
+//     > 1 way is letting people download the source code from github and cargo run by themselves < NOT a nice way
